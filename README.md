@@ -106,4 +106,4 @@ This restriction applies to the author's original work only. Third-party assets 
 
 ## Contact
 
-Open an issue on this repository for bug reports, takedown requests, or questions.
+Open an issue on this repository (https://github.com/RickyDinho/GAMMA_GF2_AIO) for bug reports, takedown requests, or questions.
