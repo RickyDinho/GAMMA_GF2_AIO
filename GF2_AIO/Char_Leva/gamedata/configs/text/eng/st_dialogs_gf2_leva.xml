@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_leva_first_meet_0">
+        <text>Uwaaahhh~ You scared me, I had nooooo idea you were there, Commander~ Hm? That was too fake? Haha, sorry about that, I'll try to be more convincing next time.</text>
+    </string>
+    <string id="gf2_leva_first_meet_1">
+        <text>Good to see you again, Leva.</text>
+    </string>
+	<string id="gf2_leva_greet_0">
+        <text>Hm? What is it? Did you want to see my face again?</text>
+    </string>
+	<string id="gf2_leva_misc_0">
+		<text>Leva, what do you think about Klukai?</text>
+	</string>
+	<string id="gf2_leva_misc_1">
+		<text>Everytime I see Klukai working hard, I can't help but want to bully her a little... Ah, you don't have to keep that a secret, Commander.</text>
+	</string>
+    <string id="gf2_leva_recruit_0">
+        <text>Let's head out together, Leva.</text>
+    </string>
+	<string id="gf2_leva_recruit_1">
+        <text>We'll soon be in a closer partnership than ever before~ Aren't you looking forward to it, Commander~?</text>
+    </string>
+	<string id="gf2_leva_dismiss_0">
+        <text>Okay Leva, please head back to base. I will handle it from here.</text>
+    </string>
+	<string id="gf2_leva_dismiss_1">
+        <text>Commander, once the dust settles, shall we relax and enjoy our time together? That's a promise, okay? No take-backs.</text>
+    </string>
+</string_table>

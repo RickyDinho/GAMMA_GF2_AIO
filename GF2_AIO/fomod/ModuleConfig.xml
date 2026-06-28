@@ -1,0 +1,2099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+
+    <moduleName>GF2 Companions AIO</moduleName>
+
+    <requiredInstallFiles>
+        <folder source="Core" destination="" priority="0"/>
+    </requiredInstallFiles>
+
+    <installSteps order="Explicit">
+        <installStep name="Faction Preset">
+            <optionalFileGroups order="Explicit">
+                <group name="Apply a faction to all characters (optional baseline)" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="No preset — set per character below">
+                            <description>Each character uses their canon faction unless overridden in the steps below.</description>
+                            <image path=""/>
+                            <conditionFlags><flag name="flag_show_chars">yes</flag></conditionFlags>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="All Duty">
+                            <description>Installs all characters and assigns them to Duty. Skips the per-character steps below.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_AllDuty" destination="" priority="1"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="All Freedom">
+                            <description>Installs all characters and assigns them to Freedom. Skips the per-character steps below.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_AllFreedom" destination="" priority="1"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="All Loners">
+                            <description>Installs all characters and assigns them to Loners. Skips the per-character steps below.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_AllLoners" destination="" priority="1"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="All Bandits">
+                            <description>Installs all characters and assigns them to Bandits. Skips the per-character steps below.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_AllBandits" destination="" priority="1"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="All Military">
+                            <description>Installs all characters and assigns them to Military. Skips the per-character steps below.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_AllMilitary" destination="" priority="1"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="All Monolith">
+                            <description>Installs all characters and assigns them to Monolith. Skips the per-character steps below.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_AllMonolith" destination="" priority="1"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="All Ecologist">
+                            <description>Installs all characters and assigns them to Ecologist. Skips the per-character steps below.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_AllEcologist" destination="" priority="1"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="All Mercenary">
+                            <description>Installs all characters and assigns them to Mercenary. Skips the per-character steps below.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_AllMercenary" destination="" priority="1"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="All ISG">
+                            <description>Installs all characters and assigns them to ISG. Skips the per-character steps below.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_AllISG" destination="" priority="1"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="All SIN">
+                            <description>Installs all characters and assigns them to SIN. Skips the per-character steps below.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_AllSIN" destination="" priority="1"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="All Clear Sky">
+                            <description>Installs all characters and assigns them to Clear Sky. Skips the per-character steps below.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_AllClearSky" destination="" priority="1"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="All Renegade">
+                            <description>Installs all characters and assigns them to Renegade. Skips the per-character steps below.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_AllRenegade" destination="" priority="1"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+        <installStep name="Alva">
+            <visible><flagDependency flag="flag_show_chars" value="yes"/></visible>
+            <optionalFileGroups order="Explicit">
+                <group name="Alva" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Don't install">
+                            <description>Skip Alva.</description>
+                            <image path=""/>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install (default: Duty)">
+                            <description>Install Alva. Faction follows the preset above, or Duty if no preset was chosen.</description>
+                            <image path=""/>
+                            <files><folder source="Char_Alva" destination="" priority="0"/></files>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Duty">
+                            <description>Install Alva and assign her to Duty. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_alva_dolg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Freedom">
+                            <description>Install Alva and assign her to Freedom. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_alva_freedom" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Loners">
+                            <description>Install Alva and assign her to Loners. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_alva_stalker" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Bandits">
+                            <description>Install Alva and assign her to Bandits. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_alva_bandit" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Military">
+                            <description>Install Alva and assign her to Military. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_alva_army" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Monolith">
+                            <description>Install Alva and assign her to Monolith. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_alva_monolith" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Ecologist">
+                            <description>Install Alva and assign her to Ecologist. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_alva_ecolog" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Mercenary">
+                            <description>Install Alva and assign her to Mercenary. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_alva_killer" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as ISG">
+                            <description>Install Alva and assign her to ISG. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_alva_isg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as SIN">
+                            <description>Install Alva and assign her to SIN. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_alva_greh" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Clear Sky">
+                            <description>Install Alva and assign her to Clear Sky. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_alva_csky" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Renegade">
+                            <description>Install Alva and assign her to Renegade. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Alva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_alva_renegade" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+        <installStep name="Basti">
+            <visible><flagDependency flag="flag_show_chars" value="yes"/></visible>
+            <optionalFileGroups order="Explicit">
+                <group name="Basti" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Don't install">
+                            <description>Skip Basti.</description>
+                            <image path=""/>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install (default: Renegade)">
+                            <description>Install Basti. Faction follows the preset above, or Renegade if no preset was chosen.</description>
+                            <image path=""/>
+                            <files><folder source="Char_Basti" destination="" priority="0"/></files>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Duty">
+                            <description>Install Basti and assign her to Duty. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_basti_dolg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Freedom">
+                            <description>Install Basti and assign her to Freedom. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_basti_freedom" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Loners">
+                            <description>Install Basti and assign her to Loners. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_basti_stalker" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Bandits">
+                            <description>Install Basti and assign her to Bandits. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_basti_bandit" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Military">
+                            <description>Install Basti and assign her to Military. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_basti_army" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Monolith">
+                            <description>Install Basti and assign her to Monolith. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_basti_monolith" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Ecologist">
+                            <description>Install Basti and assign her to Ecologist. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_basti_ecolog" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Mercenary">
+                            <description>Install Basti and assign her to Mercenary. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_basti_killer" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as ISG">
+                            <description>Install Basti and assign her to ISG. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_basti_isg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as SIN">
+                            <description>Install Basti and assign her to SIN. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_basti_greh" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Clear Sky">
+                            <description>Install Basti and assign her to Clear Sky. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_basti_csky" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Renegade">
+                            <description>Install Basti and assign her to Renegade. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Basti" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_basti_renegade" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+        <installStep name="Cheeta">
+            <visible><flagDependency flag="flag_show_chars" value="yes"/></visible>
+            <optionalFileGroups order="Explicit">
+                <group name="Cheeta" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Don't install">
+                            <description>Skip Cheeta.</description>
+                            <image path=""/>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install (default: Ecologist)">
+                            <description>Install Cheeta. Faction follows the preset above, or Ecologist if no preset was chosen.</description>
+                            <image path=""/>
+                            <files><folder source="Char_Cheeta" destination="" priority="0"/></files>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Duty">
+                            <description>Install Cheeta and assign her to Duty. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_cheeta_dolg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Freedom">
+                            <description>Install Cheeta and assign her to Freedom. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_cheeta_freedom" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Loners">
+                            <description>Install Cheeta and assign her to Loners. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_cheeta_stalker" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Bandits">
+                            <description>Install Cheeta and assign her to Bandits. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_cheeta_bandit" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Military">
+                            <description>Install Cheeta and assign her to Military. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_cheeta_army" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Monolith">
+                            <description>Install Cheeta and assign her to Monolith. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_cheeta_monolith" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Ecologist">
+                            <description>Install Cheeta and assign her to Ecologist. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_cheeta_ecolog" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Mercenary">
+                            <description>Install Cheeta and assign her to Mercenary. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_cheeta_killer" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as ISG">
+                            <description>Install Cheeta and assign her to ISG. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_cheeta_isg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as SIN">
+                            <description>Install Cheeta and assign her to SIN. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_cheeta_greh" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Clear Sky">
+                            <description>Install Cheeta and assign her to Clear Sky. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_cheeta_csky" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Renegade">
+                            <description>Install Cheeta and assign her to Renegade. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Cheeta" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_cheeta_renegade" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+        <installStep name="Groza">
+            <visible><flagDependency flag="flag_show_chars" value="yes"/></visible>
+            <optionalFileGroups order="Explicit">
+                <group name="Groza" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Don't install">
+                            <description>Skip Groza.</description>
+                            <image path=""/>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install (default: Monolith)">
+                            <description>Install Groza. Faction follows the preset above, or Monolith if no preset was chosen.</description>
+                            <image path=""/>
+                            <files><folder source="Char_Groza" destination="" priority="0"/></files>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Duty">
+                            <description>Install Groza and assign her to Duty. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_groza_dolg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Freedom">
+                            <description>Install Groza and assign her to Freedom. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_groza_freedom" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Loners">
+                            <description>Install Groza and assign her to Loners. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_groza_stalker" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Bandits">
+                            <description>Install Groza and assign her to Bandits. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_groza_bandit" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Military">
+                            <description>Install Groza and assign her to Military. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_groza_army" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Monolith">
+                            <description>Install Groza and assign her to Monolith. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_groza_monolith" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Ecologist">
+                            <description>Install Groza and assign her to Ecologist. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_groza_ecolog" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Mercenary">
+                            <description>Install Groza and assign her to Mercenary. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_groza_killer" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as ISG">
+                            <description>Install Groza and assign her to ISG. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_groza_isg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as SIN">
+                            <description>Install Groza and assign her to SIN. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_groza_greh" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Clear Sky">
+                            <description>Install Groza and assign her to Clear Sky. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_groza_csky" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Renegade">
+                            <description>Install Groza and assign her to Renegade. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Groza" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_groza_renegade" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+        <installStep name="Helen">
+            <visible><flagDependency flag="flag_show_chars" value="yes"/></visible>
+            <optionalFileGroups order="Explicit">
+                <group name="Helen" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Don't install">
+                            <description>Skip Helen.</description>
+                            <image path=""/>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install (default: Freedom)">
+                            <description>Install Helen. Faction follows the preset above, or Freedom if no preset was chosen.</description>
+                            <image path=""/>
+                            <files><folder source="Char_Helen" destination="" priority="0"/></files>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Duty">
+                            <description>Install Helen and assign her to Duty. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_helen_dolg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Freedom">
+                            <description>Install Helen and assign her to Freedom. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_helen_freedom" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Loners">
+                            <description>Install Helen and assign her to Loners. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_helen_stalker" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Bandits">
+                            <description>Install Helen and assign her to Bandits. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_helen_bandit" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Military">
+                            <description>Install Helen and assign her to Military. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_helen_army" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Monolith">
+                            <description>Install Helen and assign her to Monolith. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_helen_monolith" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Ecologist">
+                            <description>Install Helen and assign her to Ecologist. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_helen_ecolog" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Mercenary">
+                            <description>Install Helen and assign her to Mercenary. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_helen_killer" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as ISG">
+                            <description>Install Helen and assign her to ISG. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_helen_isg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as SIN">
+                            <description>Install Helen and assign her to SIN. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_helen_greh" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Clear Sky">
+                            <description>Install Helen and assign her to Clear Sky. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_helen_csky" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Renegade">
+                            <description>Install Helen and assign her to Renegade. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Helen" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_helen_renegade" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+        <installStep name="Klukai">
+            <visible><flagDependency flag="flag_show_chars" value="yes"/></visible>
+            <optionalFileGroups order="Explicit">
+                <group name="Klukai" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Don't install">
+                            <description>Skip Klukai.</description>
+                            <image path=""/>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install (default: Mercenary)">
+                            <description>Install Klukai. Faction follows the preset above, or Mercenary if no preset was chosen.</description>
+                            <image path=""/>
+                            <files><folder source="Char_Klukai" destination="" priority="0"/></files>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Duty">
+                            <description>Install Klukai and assign her to Duty. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_klukai_dolg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Freedom">
+                            <description>Install Klukai and assign her to Freedom. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_klukai_freedom" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Loners">
+                            <description>Install Klukai and assign her to Loners. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_klukai_stalker" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Bandits">
+                            <description>Install Klukai and assign her to Bandits. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_klukai_bandit" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Military">
+                            <description>Install Klukai and assign her to Military. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_klukai_army" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Monolith">
+                            <description>Install Klukai and assign her to Monolith. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_klukai_monolith" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Ecologist">
+                            <description>Install Klukai and assign her to Ecologist. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_klukai_ecolog" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Mercenary">
+                            <description>Install Klukai and assign her to Mercenary. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_klukai_killer" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as ISG">
+                            <description>Install Klukai and assign her to ISG. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_klukai_isg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as SIN">
+                            <description>Install Klukai and assign her to SIN. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_klukai_greh" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Clear Sky">
+                            <description>Install Klukai and assign her to Clear Sky. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_klukai_csky" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Renegade">
+                            <description>Install Klukai and assign her to Renegade. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Klukai" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_klukai_renegade" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+        <installStep name="Leva">
+            <visible><flagDependency flag="flag_show_chars" value="yes"/></visible>
+            <optionalFileGroups order="Explicit">
+                <group name="Leva" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Don't install">
+                            <description>Skip Leva.</description>
+                            <image path=""/>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install (default: Bandits)">
+                            <description>Install Leva. Faction follows the preset above, or Bandits if no preset was chosen.</description>
+                            <image path=""/>
+                            <files><folder source="Char_Leva" destination="" priority="0"/></files>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Duty">
+                            <description>Install Leva and assign her to Duty. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_leva_dolg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Freedom">
+                            <description>Install Leva and assign her to Freedom. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_leva_freedom" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Loners">
+                            <description>Install Leva and assign her to Loners. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_leva_stalker" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Bandits">
+                            <description>Install Leva and assign her to Bandits. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_leva_bandit" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Military">
+                            <description>Install Leva and assign her to Military. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_leva_army" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Monolith">
+                            <description>Install Leva and assign her to Monolith. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_leva_monolith" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Ecologist">
+                            <description>Install Leva and assign her to Ecologist. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_leva_ecolog" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Mercenary">
+                            <description>Install Leva and assign her to Mercenary. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_leva_killer" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as ISG">
+                            <description>Install Leva and assign her to ISG. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_leva_isg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as SIN">
+                            <description>Install Leva and assign her to SIN. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_leva_greh" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Clear Sky">
+                            <description>Install Leva and assign her to Clear Sky. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_leva_csky" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Renegade">
+                            <description>Install Leva and assign her to Renegade. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Leva" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_leva_renegade" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+        <installStep name="Lind">
+            <visible><flagDependency flag="flag_show_chars" value="yes"/></visible>
+            <optionalFileGroups order="Explicit">
+                <group name="Lind" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Don't install">
+                            <description>Skip Lind.</description>
+                            <image path=""/>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install (default: Ecologist)">
+                            <description>Install Lind. Faction follows the preset above, or Ecologist if no preset was chosen.</description>
+                            <image path=""/>
+                            <files><folder source="Char_Lind" destination="" priority="0"/></files>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Duty">
+                            <description>Install Lind and assign her to Duty. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_lind_dolg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Freedom">
+                            <description>Install Lind and assign her to Freedom. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_lind_freedom" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Loners">
+                            <description>Install Lind and assign her to Loners. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_lind_stalker" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Bandits">
+                            <description>Install Lind and assign her to Bandits. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_lind_bandit" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Military">
+                            <description>Install Lind and assign her to Military. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_lind_army" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Monolith">
+                            <description>Install Lind and assign her to Monolith. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_lind_monolith" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Ecologist">
+                            <description>Install Lind and assign her to Ecologist. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_lind_ecolog" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Mercenary">
+                            <description>Install Lind and assign her to Mercenary. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_lind_killer" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as ISG">
+                            <description>Install Lind and assign her to ISG. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_lind_isg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as SIN">
+                            <description>Install Lind and assign her to SIN. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_lind_greh" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Clear Sky">
+                            <description>Install Lind and assign her to Clear Sky. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_lind_csky" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Renegade">
+                            <description>Install Lind and assign her to Renegade. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_lind_renegade" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+        <installStep name="Mosin">
+            <visible><flagDependency flag="flag_show_chars" value="yes"/></visible>
+            <optionalFileGroups order="Explicit">
+                <group name="Mosin" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Don't install">
+                            <description>Skip Mosin.</description>
+                            <image path=""/>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install (default: Loners)">
+                            <description>Install Mosin. Faction follows the preset above, or Loners if no preset was chosen.</description>
+                            <image path=""/>
+                            <files><folder source="Char_Mosin" destination="" priority="0"/></files>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Duty">
+                            <description>Install Mosin and assign her to Duty. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_mosin_dolg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Freedom">
+                            <description>Install Mosin and assign her to Freedom. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_mosin_freedom" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Loners">
+                            <description>Install Mosin and assign her to Loners. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_mosin_stalker" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Bandits">
+                            <description>Install Mosin and assign her to Bandits. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_mosin_bandit" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Military">
+                            <description>Install Mosin and assign her to Military. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_mosin_army" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Monolith">
+                            <description>Install Mosin and assign her to Monolith. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_mosin_monolith" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Ecologist">
+                            <description>Install Mosin and assign her to Ecologist. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_mosin_ecolog" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Mercenary">
+                            <description>Install Mosin and assign her to Mercenary. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_mosin_killer" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as ISG">
+                            <description>Install Mosin and assign her to ISG. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_mosin_isg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as SIN">
+                            <description>Install Mosin and assign her to SIN. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_mosin_greh" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Clear Sky">
+                            <description>Install Mosin and assign her to Clear Sky. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_mosin_csky" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Renegade">
+                            <description>Install Mosin and assign her to Renegade. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Mosin" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_mosin_renegade" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+        <installStep name="Nikketa">
+            <visible><flagDependency flag="flag_show_chars" value="yes"/></visible>
+            <optionalFileGroups order="Explicit">
+                <group name="Nikketa" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Don't install">
+                            <description>Skip Nikketa.</description>
+                            <image path=""/>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install (default: ISG)">
+                            <description>Install Nikketa. Faction follows the preset above, or ISG if no preset was chosen.</description>
+                            <image path=""/>
+                            <files><folder source="Char_Nikketa" destination="" priority="0"/></files>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Duty">
+                            <description>Install Nikketa and assign her to Duty. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_nikketa_dolg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Freedom">
+                            <description>Install Nikketa and assign her to Freedom. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_nikketa_freedom" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Loners">
+                            <description>Install Nikketa and assign her to Loners. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_nikketa_stalker" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Bandits">
+                            <description>Install Nikketa and assign her to Bandits. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_nikketa_bandit" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Military">
+                            <description>Install Nikketa and assign her to Military. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_nikketa_army" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Monolith">
+                            <description>Install Nikketa and assign her to Monolith. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_nikketa_monolith" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Ecologist">
+                            <description>Install Nikketa and assign her to Ecologist. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_nikketa_ecolog" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Mercenary">
+                            <description>Install Nikketa and assign her to Mercenary. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_nikketa_killer" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as ISG">
+                            <description>Install Nikketa and assign her to ISG. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_nikketa_isg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as SIN">
+                            <description>Install Nikketa and assign her to SIN. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_nikketa_greh" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Clear Sky">
+                            <description>Install Nikketa and assign her to Clear Sky. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_nikketa_csky" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Renegade">
+                            <description>Install Nikketa and assign her to Renegade. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Nikketa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_nikketa_renegade" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+        <installStep name="Phaetusa">
+            <visible><flagDependency flag="flag_show_chars" value="yes"/></visible>
+            <optionalFileGroups order="Explicit">
+                <group name="Phaetusa" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Don't install">
+                            <description>Skip Phaetusa.</description>
+                            <image path=""/>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install (default: SIN)">
+                            <description>Install Phaetusa. Faction follows the preset above, or SIN if no preset was chosen.</description>
+                            <image path=""/>
+                            <files><folder source="Char_Phaetusa" destination="" priority="0"/></files>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Duty">
+                            <description>Install Phaetusa and assign her to Duty. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_phaetusa_dolg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Freedom">
+                            <description>Install Phaetusa and assign her to Freedom. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_phaetusa_freedom" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Loners">
+                            <description>Install Phaetusa and assign her to Loners. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_phaetusa_stalker" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Bandits">
+                            <description>Install Phaetusa and assign her to Bandits. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_phaetusa_bandit" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Military">
+                            <description>Install Phaetusa and assign her to Military. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_phaetusa_army" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Monolith">
+                            <description>Install Phaetusa and assign her to Monolith. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_phaetusa_monolith" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Ecologist">
+                            <description>Install Phaetusa and assign her to Ecologist. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_phaetusa_ecolog" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Mercenary">
+                            <description>Install Phaetusa and assign her to Mercenary. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_phaetusa_killer" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as ISG">
+                            <description>Install Phaetusa and assign her to ISG. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_phaetusa_isg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as SIN">
+                            <description>Install Phaetusa and assign her to SIN. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_phaetusa_greh" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Clear Sky">
+                            <description>Install Phaetusa and assign her to Clear Sky. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_phaetusa_csky" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Renegade">
+                            <description>Install Phaetusa and assign her to Renegade. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Phaetusa" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_phaetusa_renegade" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+        <installStep name="Robella">
+            <visible><flagDependency flag="flag_show_chars" value="yes"/></visible>
+            <optionalFileGroups order="Explicit">
+                <group name="Robella" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Don't install">
+                            <description>Skip Robella.</description>
+                            <image path=""/>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install (default: Clear Sky)">
+                            <description>Install Robella. Faction follows the preset above, or Clear Sky if no preset was chosen.</description>
+                            <image path=""/>
+                            <files><folder source="Char_Robella" destination="" priority="0"/></files>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Duty">
+                            <description>Install Robella and assign her to Duty. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_robella_dolg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Freedom">
+                            <description>Install Robella and assign her to Freedom. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_robella_freedom" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Loners">
+                            <description>Install Robella and assign her to Loners. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_robella_stalker" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Bandits">
+                            <description>Install Robella and assign her to Bandits. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_robella_bandit" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Military">
+                            <description>Install Robella and assign her to Military. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_robella_army" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Monolith">
+                            <description>Install Robella and assign her to Monolith. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_robella_monolith" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Ecologist">
+                            <description>Install Robella and assign her to Ecologist. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_robella_ecolog" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Mercenary">
+                            <description>Install Robella and assign her to Mercenary. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_robella_killer" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as ISG">
+                            <description>Install Robella and assign her to ISG. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_robella_isg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as SIN">
+                            <description>Install Robella and assign her to SIN. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_robella_greh" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Clear Sky">
+                            <description>Install Robella and assign her to Clear Sky. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_robella_csky" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Renegade">
+                            <description>Install Robella and assign her to Renegade. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Robella" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_robella_renegade" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+        <installStep name="Voymastina">
+            <visible><flagDependency flag="flag_show_chars" value="yes"/></visible>
+            <optionalFileGroups order="Explicit">
+                <group name="Voymastina" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Don't install">
+                            <description>Skip Voymastina.</description>
+                            <image path=""/>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install (default: Duty)">
+                            <description>Install Voymastina. Faction follows the preset above, or Duty if no preset was chosen.</description>
+                            <image path=""/>
+                            <files><folder source="Char_Tina" destination="" priority="0"/></files>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Duty">
+                            <description>Install Voymastina and assign her to Duty. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tina_dolg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Freedom">
+                            <description>Install Voymastina and assign her to Freedom. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tina_freedom" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Loners">
+                            <description>Install Voymastina and assign her to Loners. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tina_stalker" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Bandits">
+                            <description>Install Voymastina and assign her to Bandits. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tina_bandit" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Military">
+                            <description>Install Voymastina and assign her to Military. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tina_army" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Monolith">
+                            <description>Install Voymastina and assign her to Monolith. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tina_monolith" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Ecologist">
+                            <description>Install Voymastina and assign her to Ecologist. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tina_ecolog" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Mercenary">
+                            <description>Install Voymastina and assign her to Mercenary. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tina_killer" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as ISG">
+                            <description>Install Voymastina and assign her to ISG. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tina_isg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as SIN">
+                            <description>Install Voymastina and assign her to SIN. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tina_greh" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Clear Sky">
+                            <description>Install Voymastina and assign her to Clear Sky. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tina_csky" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Renegade">
+                            <description>Install Voymastina and assign her to Renegade. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tina_renegade" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+        <installStep name="Vector">
+            <visible><flagDependency flag="flag_show_chars" value="yes"/></visible>
+            <optionalFileGroups order="Explicit">
+                <group name="Vector" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Don't install">
+                            <description>Skip Vector.</description>
+                            <image path=""/>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install (default: Military)">
+                            <description>Install Vector. Faction follows the preset above, or Military if no preset was chosen.</description>
+                            <image path=""/>
+                            <files><folder source="Char_Vector" destination="" priority="0"/></files>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Duty">
+                            <description>Install Vector and assign her to Duty. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_vector_dolg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Freedom">
+                            <description>Install Vector and assign her to Freedom. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_vector_freedom" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Loners">
+                            <description>Install Vector and assign her to Loners. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_vector_stalker" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Bandits">
+                            <description>Install Vector and assign her to Bandits. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_vector_bandit" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Military">
+                            <description>Install Vector and assign her to Military. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_vector_army" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Monolith">
+                            <description>Install Vector and assign her to Monolith. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_vector_monolith" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Ecologist">
+                            <description>Install Vector and assign her to Ecologist. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_vector_ecolog" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Mercenary">
+                            <description>Install Vector and assign her to Mercenary. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_vector_killer" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as ISG">
+                            <description>Install Vector and assign her to ISG. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_vector_isg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as SIN">
+                            <description>Install Vector and assign her to SIN. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_vector_greh" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Clear Sky">
+                            <description>Install Vector and assign her to Clear Sky. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_vector_csky" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Renegade">
+                            <description>Install Vector and assign her to Renegade. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Vector" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_vector_renegade" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+    </installSteps>
+
+</config>

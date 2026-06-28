@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_helen_first_meet_0">
+        <text>I'm truly happy to see you again. This time, please let me stay by your side. I'll make sure I protect you.</text>
+    </string>
+    <string id="gf2_helen_first_meet_1">
+        <text>I'm glad to see you too, Helen.</text>
+    </string>
+	<string id="gf2_helen_greet_0">
+        <text>You're here. Do you need anything from me? Feel free to ask.</text>
+    </string>
+	<string id="gf2_helen_misc_0">
+		<text>Helen, how come you're so supportive towards me?</text>
+	</string>
+	<string id="gf2_helen_misc_1">
+		<text>Everyone's counting on you, but who can you count on... Commander, I want to be a source of strength for you. If you're tired, you can rest by my side, and I'll tell you interesting bedtime stories.</text>
+	</string>
+    <string id="gf2_helen_recruit_0">
+        <text>Can you come with me, Helen?</text>
+    </string>
+	<string id="gf2_helen_recruit_1">
+        <text>I feel so happy now that I can stay by your side. No matter where you decide to go, the place where you are is my "home".</text>
+    </string>
+	<string id="gf2_helen_dismiss_0">
+        <text>Okay Helen, please head back to base. I will handle it from here.</text>
+    </string>
+	<string id="gf2_helen_dismiss_1">
+        <text>If you want it, I'll do it for you.</text>
+    </string>
+</string_table>

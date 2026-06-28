@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_basti_first_meet_0">
+        <text>Darling! This game of cat and mouse is over, I finally found you!</text>
+    </string>
+    <string id="gf2_basti_first_meet_1">
+        <text>Hello Basti, happy to see you!</text>
+    </string>
+	<string id="gf2_basti_greet_0">
+        <text>Darling, what shall we do today?</text>
+    </string>
+	<string id="gf2_basti_misc_0">
+		<text>Basti, what's the meani-</text>
+	</string>
+	<string id="gf2_basti_misc_1">
+		<text>Shhh- Don't let the others hear you. Some things are better when done in secret...</text>
+	</string>
+    <string id="gf2_basti_recruit_0">
+        <text>Basti, let's go out on patrol.</text>
+    </string>
+	<string id="gf2_basti_recruit_1">
+        <text>Am I your one and only now?</text>
+    </string>
+	<string id="gf2_basti_dismiss_0">
+        <text>Okay Basti, we're done for today, can you head back to base?</text>
+    </string>
+	<string id="gf2_basti_dismiss_1">
+        <text>Wow, that was super hard! Darling, you'll give me an extra nice reward, right?</text>
+    </string>
+</string_table>

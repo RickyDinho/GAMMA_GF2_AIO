@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_cheeta_first_meet_0">
+        <text>Hello, Caretaker~ Huh? Based on your reaction you forgot my new name? It's CHEETA! Yes, Cheeta, like the cheetah who can take down honey badgers! Gao! Oh, wait... the sound should be "chip-chirp", right?</text>
+    </string>
+    <string id="gf2_cheeta_first_meet_1">
+        <text>...chirp chirp?</text>
+    </string>
+	<string id="gf2_cheeta_greet_0">
+        <text>Ei!</text>
+    </string>
+	<string id="gf2_cheeta_misc_0">
+		<text>Cheeta, last videocall you seemed to fall asleep...</text>
+	</string>
+	<string id="gf2_cheeta_misc_1">
+		<text>Uweh... video meetings with the Leader and the others are exhausting... Next time, I'll just put a dummy in front of the screen! And I'll program it to respond with "Oh, yes, yes, yes" no matter what it's asked!</text>
+	</string>
+    <string id="gf2_cheeta_recruit_0">
+        <text>C'mon Cheeta, let's head out.</text>
+    </string>
+	<string id="gf2_cheeta_recruit_1">
+        <text>More work...? Is it for the Caretaker? Well, I guess there's no choice. Let the greatest genius of this century lend you a hand!</text>
+    </string>
+	<string id="gf2_cheeta_dismiss_0">
+        <text>Okay Cheeta, that's enough. Please head back to base.</text>
+    </string>
+	<string id="gf2_cheeta_dismiss_1">
+        <text>Ugh, boring!</text>
+    </string>
+</string_table>

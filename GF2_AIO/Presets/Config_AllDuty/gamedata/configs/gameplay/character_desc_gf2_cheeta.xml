@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<xml>
+<!-- Cheeta -->
+
+<specific_character id="gf2_cheeta" team_default="1">
+    <name>Cheeta</name>
+    <icon>ui_actor_portrets_gf2_cheeta</icon>
+    <map_icon x="1" y="0"/>
+    <bio>Cheeta</bio>
+    <class>gf2_cheeta</class>
+    <community>dolg</community>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human\woman\</snd_config>
+    <rank>15000</rank>
+	<reputation>5000</reputation>
+	<crouch_type>-1</crouch_type>
+    <visual>actors\gf2_cheeta\gf2_cheeta</visual>
+    <supplies>
+    [spawn] \n
+    wpn_mp7_cheeta \n
+    ammo_9x19_ap = 6 \n
+#include "gameplay\supplies\character_items.xml"
+#include "gameplay\supplies\character_food.xml"
+#include "gameplay\supplies\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+    <start_dialog>gf2_cheeta_greet</start_dialog>
+	<actor_dialog>gf2_cheeta_misc</actor_dialog>
+	<actor_dialog>gf2_cheeta_recruitment</actor_dialog>
+	<actor_dialog>gf2_cheeta_dismiss</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character> 
+
+</xml>

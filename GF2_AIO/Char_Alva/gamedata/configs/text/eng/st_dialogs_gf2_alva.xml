@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_alva_first_meet_0">
+        <text>Commander... Hello. I'm sorry... I'm a bit nervous. It's been ten years since I last saw you, and now that we're meeting again, I feel like I have too much to say.</text>
+    </string>
+    <string id="gf2_alva_first_meet_1">
+        <text>It's okay, Alva. Good to see you again.</text>
+    </string>
+	<string id="gf2_alva_greet_0">
+        <text>Goodmorning, Commander. I've already sorted out today's schedule.</text>
+    </string>
+	<string id="gf2_alva_misc_0">
+		<text>Alva, what do you think about the Elmo?</text>
+	</string>
+	<string id="gf2_alva_misc_1">
+		<text>The Elmo is... more comfortable than I expected. Everyone here has their place, including me. It's an amazing feeling... If we had served in Griffin instead of the NSA ten years ago, we might have experienced it much earlier.</text>
+	</string>
+    <string id="gf2_alva_recruit_0">
+        <text>Let's head out together, Alva.</text>
+    </string>
+	<string id="gf2_alva_recruit_1">
+        <text>Mission understood.</text>
+    </string>
+	<string id="gf2_alva_dismiss_0">
+        <text>Okay Alva, please head back to base. I will handle it from here.</text>
+    </string>
+	<string id="gf2_alva_dismiss_1">
+        <text>Dr. Shaw's designs will not go out of style.</text>
+    </string>
+</string_table>

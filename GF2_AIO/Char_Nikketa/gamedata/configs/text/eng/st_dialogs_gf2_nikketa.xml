@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_nikketa_first_meet_0">
+        <text>Boss, I'm planning an educational course about safety regulations aboard the Elmo. I'd appreciate it if you could help me inform the other Dolls. Also, make sure to be present too!</text>
+    </string>
+    <string id="gf2_nikketa_first_meet_1">
+        <text>Nikketa, glad to have you back!</text>
+    </string>
+	<string id="gf2_nikketa_greet_0">
+        <text>Boss, I'm the one on duty today. Let's start the day off in compliance with Elmo Safety Regulations.</text>
+    </string>
+	<string id="gf2_nikketa_misc_0">
+		<text>Nikketa, what's that bracelet on your left wrist?</text>
+	</string>
+	<string id="gf2_nikketa_misc_1">
+		<text>This pair of handcuffs? Don't get me wrong, it's not something I snuck out of my previous service. I made it myself, it's like an amulet of sort.</text>
+	</string>
+    <string id="gf2_nikketa_recruit_0">
+        <text>Nikketa, let's go out on patrol.</text>
+    </string>
+	<string id="gf2_nikketa_recruit_1">
+        <text>Want to join me in defending justice, Boss?</text>
+    </string>
+	<string id="gf2_nikketa_dismiss_0">
+        <text>Okay Nikketa, please head back to base. I will handle it from here.</text>
+    </string>
+	<string id="gf2_nikketa_dismiss_1">
+        <text>No, Boss, I'm not slacking off! I'm just wondering what your idea of “justice” is!</text>
+    </string>
+</string_table>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_klukai_first_meet_0">
+        <text>Hailing from H.I.D.E 404. Active leader, the Elite Doll Klukai has arrived. It's been a while, Commander.</text>
+    </string>
+    <string id="gf2_klukai_first_meet_1">
+        <text>Welcome back, Klukai.</text>
+    </string>
+	<string id="gf2_klukai_greet_0">
+        <text>What took you so long? I've been waiting for a while.</text>
+    </string>
+	<string id="gf2_klukai_misc_0">
+		<text>Klukai, what's the deal with that motorbike?</text>
+	</string>
+	<string id="gf2_klukai_misc_1">
+		<text>As I use them so often during missions, I've grown fond of motorbikes without even realizing it. I guess that's something I've gained unexpectedly.</text>
+	</string>
+    <string id="gf2_klukai_recruit_0">
+        <text>Let's go, Klukai.</text>
+    </string>
+	<string id="gf2_klukai_recruit_1">
+        <text>Want to go for a joyride, Commander? I found something good on the last mission and installed it on the motorbike. Let's try it out.</text>
+    </string>
+	<string id="gf2_klukai_dismiss_0">
+        <text>Okay Klukai, please head back to base. I will handle it from here.</text>
+    </string>
+	<string id="gf2_klukai_dismiss_1">
+        <text>You're looking at the other Dolls again, Commander... Is it because I'm not powerful enough? Go ahead and look around, Commander. You'll realize who is the best one soon enough.</text>
+    </string>
+</string_table>

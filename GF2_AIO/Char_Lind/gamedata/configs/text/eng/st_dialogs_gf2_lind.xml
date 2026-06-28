@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_lind_first_meet_0">
+        <text>Spare me the overly formal intro, will you? It's not like we just met... My name? Just call me Lind.</text>
+    </string>
+    <string id="gf2_lind_first_meet_1">
+        <text>Lind it is then... I'm happy to meet up again!</text>
+    </string>
+	<string id="gf2_lind_greet_0">
+        <text>Need a sugar topup?</text>
+    </string>
+	<string id="gf2_lind_misc_0">
+		<text>Lind, do you really need to eat so much sugar...?</text>
+	</string>
+	<string id="gf2_lind_misc_1">
+		<text>Consuming too much sugar will make me malfunction, but I'll scrap myself on the spot if I don't get any right now, so I guess I should have some... Nom.</text>
+	</string>
+    <string id="gf2_lind_recruit_0">
+        <text>Let's head out together, Lind.</text>
+    </string>
+	<string id="gf2_lind_recruit_1">
+        <text>Why are you being so nice to me? ...You don't have something weird in mind, do you?</text>
+    </string>
+	<string id="gf2_lind_dismiss_0">
+        <text>Okay Lind, please head back to base. I will handle it from here.</text>
+    </string>
+	<string id="gf2_lind_dismiss_1">
+        <text>Where are you going? Come back soon or I'll die. That's how a dependency works, is this your first time meeting me?</text>
+    </string>
+</string_table>

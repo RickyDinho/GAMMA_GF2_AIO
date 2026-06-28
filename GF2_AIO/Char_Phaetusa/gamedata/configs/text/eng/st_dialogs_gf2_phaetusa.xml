@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_phaetusa_first_meet_0">
+        <text>...I've finally met you, Commander. You're exactly as I imagined.</text>
+    </string>
+    <string id="gf2_phaetusa_first_meet_1">
+        <text>You must be "Phaetusa"? Nice to meet you!</text>
+    </string>
+	<string id="gf2_phaetusa_greet_0">
+        <text>I got to see you today, Commander. I'm so happy!</text>
+    </string>
+	<string id="gf2_phaetusa_misc_0">
+		<text>Sweeper, you're not angry at me anymore right? Even after what happened with Sangvis Ferri... </text>
+	</string>
+	<string id="gf2_phaetusa_misc_1">
+		<text>That Phaetusa... She has such a big mouth, telling you everything... Wh-what are you looking at?! I did say I don't hate you, so what? Don't get cocky!</text>
+	</string>
+    <string id="gf2_phaetusa_recruit_0">
+        <text>Can you come with me, Phaetusa?</text>
+    </string>
+	<string id="gf2_phaetusa_recruit_1">
+        <text>The thought of being guided by you, Commander, gets me strangely excited... I haven't felt this way in a long time. Let me experience once more that human wisdom and resilience...</text>
+    </string>
+	<string id="gf2_phaetusa_dismiss_0">
+        <text>Okay Sweeper, please head back to base. I will handle it from here.</text>
+    </string>
+	<string id="gf2_phaetusa_dismiss_1">
+        <text>I wouldn't say I completely trust you just yet, but... I'll try to put in more of an effort. What's with that look? This is the absolute best I can do right now!</text>
+    </string>
+</string_table>

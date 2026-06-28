@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_tina_first_meet_0">
+        <text>Commander, we haven't been in touch for a while. From now on, focus on my true strength, and not on talks about being the strongest second-generation Tactical Doll.</text>
+    </string>
+    <string id="gf2_tina_first_meet_1">
+        <text>It's alright, Voymastina. Glad to see you here!</text>
+    </string>
+	<string id="gf2_tina_greet_0">
+        <text>You're on time today too, huh? I've already sent you the schedule. If you have no objections, then let's begin immediately.</text>
+    </string>
+	<string id="gf2_tina_alva_0">
+		<text>Voymastina, what's your opinion about Alva?</text>
+	</string>
+	<string id="gf2_tina_alva_1">
+		<text>Without a doubt, Alva is a competent captain. So even if I sometimes don't understand her intentions, I will carry them out without hesitation.</text>
+	</string>
+    <string id="gf2_tina_recruit_0">
+        <text>Come with me, Voymastina.</text>
+    </string>
+	<string id="gf2_tina_recruit_1">
+        <text>Please don't stray too far from me. Within my range of fire is the safest place.</text>
+    </string>
+	<string id="gf2_tina_dismiss_0">
+        <text>Okay Voymastina, please head back to base. I will handle it from here.</text>
+    </string>
+	<string id="gf2_tina_dismiss_1">
+        <text>Before you depart, please allow me to check your protective gear one last time.</text>
+    </string>
+</string_table>

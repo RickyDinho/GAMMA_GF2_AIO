@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_groza_first_meet_0">
+        <text>All variables within acceptable ranges. Rest easy, Commander. I'm here.</text>
+    </string>
+    <string id="gf2_groza_first_meet_1">
+        <text>Welcome back, Groza.</text>
+    </string>
+	<string id="gf2_groza_greet_0">
+        <text>In a rush? Don't worry. Groza is at your service.</text>
+    </string>
+	<string id="gf2_groza_misc_0">
+		<text>Groza, can you check the temperature forecast?</text>
+	</string>
+	<string id="gf2_groza_misc_1">
+		<text>Last night's temperature was 4 degrees Celsius, so that would be within the range of "Cold" for the Commander. Have you taken measures to keep yourself warm, Commander? The newly purchased scarf has already arrived in the Ops room. I will remind you to wear it when the temperature drops at night again.</text>
+	</string>
+    <string id="gf2_groza_recruit_0">
+        <text>Can you come with me, Groza?</text>
+    </string>
+	<string id="gf2_groza_recruit_1">
+        <text>Ready to go.</text>
+    </string>
+	<string id="gf2_groza_dismiss_0">
+        <text>Okay Groza, please head back to base. I will handle it from here.</text>
+    </string>
+	<string id="gf2_groza_dismiss_1">
+        <text>It's an honor to be trusted by you, Commander. Please continue to rely on me in the future as well.</text>
+    </string>
+</string_table>

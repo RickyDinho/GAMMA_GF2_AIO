@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<game_dialogs>
+	<dialog id="gf2_vector_greet">
+		<phrase_list>
+			<phrase id="0">
+				<text/>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text/>
+				<next>10</next>
+				<next>20</next>
+			</phrase>
+			<phrase id="10">
+				<dont_has_info>gf2_vector_met</dont_has_info>
+				<text>gf2_vector_first_meet_0</text>
+				<action>gf2_aio.gf2_vector_play_first_meet_line</action>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>gf2_vector_first_meet_1</text>
+				<give_info>gf2_vector_met</give_info>
+			</phrase>
+			<phrase id="20">
+				<has_info>gf2_vector_met</has_info>
+				<text>gf2_vector_greet_0</text>
+				<action>gf2_aio.gf2_vector_play_greet_line</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="gf2_vector_misc">
+        <has_info>gf2_vector_met</has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>gf2_vector_misc_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>gf2_vector_misc_1</text>
+                <action>gf2_aio.gf2_vector_play_misc_line</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="gf2_vector_recruitment">
+    <has_info>gf2_vector_met</has_info>
+    <dont_has_info>gf2_vector_companion</dont_has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_vector_recruit_0</text>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text>gf2_vector_recruit_1</text>
+            <give_info>gf2_vector_companion</give_info>
+            <action>gf2_aio.gf2_vector_recruit_companion</action>
+        </phrase>
+    </phrase_list>
+</dialog>
+
+<dialog id="gf2_vector_dismiss">
+    <has_info>gf2_vector_met</has_info>
+    <has_info>gf2_vector_companion</has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_vector_dismiss_0</text>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text>gf2_vector_dismiss_1</text>
+            <disable_info>gf2_vector_companion</disable_info>
+            <action>gf2_aio.gf2_vector_dismiss_companion</action>
+        </phrase>
+    </phrase_list>
+</dialog>
+</game_dialogs>

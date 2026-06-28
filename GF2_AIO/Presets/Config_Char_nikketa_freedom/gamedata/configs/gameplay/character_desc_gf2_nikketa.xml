@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<xml>
+<!-- Nikketa -->
+
+<specific_character id="gf2_nikketa" team_default="1">
+    <name>Nikketa</name>
+    <icon>ui_actor_portrets_gf2_nikketa</icon>
+    <map_icon x="1" y="0"/>
+    <bio>Nikketa</bio>
+    <class>gf2_nikketa</class>
+    <community>freedom</community>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human\woman\</snd_config>
+    <rank>15000</rank>
+	<reputation>5000</reputation>
+	<crouch_type>-1</crouch_type>
+    <visual>actors\gf2_nikketa\gf2_nikketa</visual>
+    <supplies>
+    [spawn] \n
+    wpn_vsk94_nikketa \n
+    ammo_9x39_ap = 6 \n
+#include "gameplay\supplies\character_items.xml"
+#include "gameplay\supplies\character_food.xml"
+#include "gameplay\supplies\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+    <start_dialog>gf2_nikketa_greet</start_dialog>
+	<actor_dialog>gf2_nikketa_misc</actor_dialog>
+	<actor_dialog>gf2_nikketa_recruitment</actor_dialog>
+	<actor_dialog>gf2_nikketa_dismiss</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character> 
+
+</xml>

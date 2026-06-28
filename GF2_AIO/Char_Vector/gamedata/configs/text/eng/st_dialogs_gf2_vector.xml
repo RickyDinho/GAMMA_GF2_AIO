@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_vector_first_meet_0">
+        <text>Commander...? I never thought we'd meet again. I'm a little... happy... I guess.</text>
+    </string>
+    <string id="gf2_vector_first_meet_1">
+        <text>Welcome back, Vector.</text>
+    </string>
+	<string id="gf2_vector_greet_0">
+        <text>Commander, there's a whole pile of work waiting for you... but it's okay if you don't feel like doing it...</text>
+    </string>
+	<string id="gf2_vector_misc_0">
+		<text>Your drawings are very... fiery..?</text>
+	</string>
+	<string id="gf2_vector_misc_1">
+		<text>Are my drawings hard to understand? If you wish to understand them, I'm willing to share my thoughts from when I was drawing them.</text>
+	</string>
+    <string id="gf2_vector_recruit_0">
+        <text>Can you come with me, Vector?</text>
+    </string>
+	<string id="gf2_vector_recruit_1">
+        <text>I'll protect you.</text>
+    </string>
+	<string id="gf2_vector_dismiss_0">
+        <text>Okay Vector, please head back to base. I will handle it from here.</text>
+    </string>
+	<string id="gf2_vector_dismiss_1">
+        <text>If you still need me, I'll put my all into continuing to function, to be with you always.</text>
+    </string>
+</string_table>

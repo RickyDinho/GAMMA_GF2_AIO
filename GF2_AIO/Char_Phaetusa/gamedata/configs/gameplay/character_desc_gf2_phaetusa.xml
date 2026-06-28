@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<xml>
+<!-- Phaetusa -->
+
+<specific_character id="gf2_phaetusa" team_default="1">
+    <name>Phaetusa</name>
+    <icon>ui_actor_portrets_gf2_phaetusa</icon>
+    <map_icon x="1" y="0"/>
+    <bio>Phaetusa</bio>
+    <class>gf2_phaetusa</class>
+    <community>greh</community>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human\woman\</snd_config>
+    <rank>15000</rank>
+	<reputation>5000</reputation>
+	<crouch_type>-1</crouch_type>
+    <visual>actors\gf2_phaetusa\gf2_phaetusa</visual>
+    <supplies>
+    [spawn] \n
+    wpn_knife7_phaetusa \n
+#include "gameplay\supplies\character_items.xml"
+#include "gameplay\supplies\character_food.xml"
+#include "gameplay\supplies\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+    <start_dialog>gf2_phaetusa_greet</start_dialog>
+	<actor_dialog>gf2_phaetusa_misc</actor_dialog>
+	<actor_dialog>gf2_phaetusa_recruitment</actor_dialog>
+	<actor_dialog>gf2_phaetusa_dismiss</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character> 
+
+</xml>

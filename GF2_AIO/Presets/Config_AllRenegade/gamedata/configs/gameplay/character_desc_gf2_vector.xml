@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<xml>
+<!-- Vector -->
+
+<specific_character id="gf2_vector" team_default="1">
+    <name>Vector</name>
+    <icon>ui_actor_portrets_gf2_vector</icon>
+    <map_icon x="1" y="0"/>
+    <bio>Vector</bio>
+    <class>gf2_vector</class>
+    <community>renegade</community>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human\woman\</snd_config>
+    <rank>15000</rank>
+	<reputation>5000</reputation>
+	<crouch_type>-1</crouch_type>
+    <visual>actors\gf2_vector\gf2_vector</visual>
+    <supplies>
+    [spawn] \n
+    wpn_kriss_vector_vector \n
+    ammo_11.43x23_fmj = 6 \n
+#include "gameplay\supplies\character_items.xml"
+#include "gameplay\supplies\character_food.xml"
+#include "gameplay\supplies\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+    <start_dialog>gf2_vector_greet</start_dialog>
+	<actor_dialog>gf2_vector_misc</actor_dialog>
+	<actor_dialog>gf2_vector_recruitment</actor_dialog>
+	<actor_dialog>gf2_vector_dismiss</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character> 
+
+</xml>

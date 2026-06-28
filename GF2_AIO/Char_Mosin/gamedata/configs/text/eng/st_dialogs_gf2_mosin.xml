@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_mosin_first_meet_0">
+        <text>Security Doll Squad Leader, Mosin-Nagant, at your service... Huh? Aren't you... the Commander? It's been so long! Where have you been all this time?</text>
+    </string>
+    <string id="gf2_mosin_first_meet_1">
+        <text>I just arrived in the Zone. Happy to see you here, Mosin!</text>
+    </string>
+	<string id="gf2_mosin_greet_0">
+        <text>Hello, Commander! Let's work hard and aim for the top today!</text>
+    </string>
+	<string id="gf2_mosin_hat_0">
+		<text>Mosin, aren't you overheating under that hat?</text>
+	</string>
+	<string id="gf2_mosin_hat_1">
+		<text>My hat... Does it look like it's overheating me? Hahaha, I won't take it off even if you say so, Commander.</text>
+	</string>
+    <string id="gf2_mosin_recruit_0">
+        <text>Come with me, Mosin.</text>
+    </string>
+	<string id="gf2_mosin_recruit_1">
+        <text>I can't believe you'd entrust such an important mission to an old Doll like me... Thank you, Commander! I'll do my best!</text>
+    </string>
+	<string id="gf2_mosin_dismiss_0">
+        <text>Okay Mosin, enough for today, please head back to base.</text>
+    </string>
+	<string id="gf2_mosin_dismiss_1">
+        <text>Proceeding as planned.</text>
+    </string>
+</string_table>
