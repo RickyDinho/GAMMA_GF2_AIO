@@ -42,8 +42,9 @@ Each companion is **invulnerable** (UNLESS shot by the player), can be recruited
 ---
 
 ## Installation
+ModDB: Download the .rar, then add it through the MO2 UI "Install a mod from an archive" and follow the installation steps.
+Github: Just download the zip, re-zip/rar the "GF2_AIO" folder, then add it through the MO2 UI "Install a mod from an archive" and follow the installation steps.
 
-Just download the zip, re-zip/rar the "GF2_AIO" folder, then add it through the MO2 UI and follow the installation steps.
 Start a new game after (re)installing, issues may occur when changing character's factions during a playthrough.
 
 ---
