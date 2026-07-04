@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_makiatto_first_meet_0">
+        <text>Ha... ha... I finally... found you. Hurry, let me ins!</text>
+    </string>
+    <string id="gf2_makiatto_first_meet_1">
+        <text>WA2000? I'm happy to have you back!</text>
+    </string>
+	<string id="gf2_makiatto_greet_0">
+        <text>What are you standing around for? Hurry up and come here!</text>
+    </string>
+	<string id="gf2_makiatto_misc_0">
+		<text>Hm? What's the matter, Makiatto?</text>
+	</string>
+	<string id="gf2_makiatto_misc_1">
+		<text>Um, if you can't make it in the Yellow Zones anymore in the future, you could come find me in the Green Zones. I have an apartment there, it's not big, but it's enough for two people. I can do some commissions for money- Hey, that's an if, IF! Do you understand?!</text>
+	</string>
+    <string id="gf2_makiatto_recruit_0">
+        <text>C'mon Makiatto, let's head out.</text>
+    </string>
+	<string id="gf2_makiatto_recruit_1">
+        <text>Ofcourse!</text>
+    </string>
+	<string id="gf2_makiatto_dismiss_0">
+        <text>Okay Makiatto, that's enough. Please head back to base.</text>
+    </string>
+	<string id="gf2_makiatto_dismiss_1">
+        <text>So, before... well... I mean, I'm sorry...</text>
+    </string>
+</string_table>

@@ -31,6 +31,7 @@
                                 <folder source="Char_Klukai" destination="" priority="0"/>
                                 <folder source="Char_Leva" destination="" priority="0"/>
                                 <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
                                 <folder source="Char_Mosin" destination="" priority="0"/>
                                 <folder source="Char_Nikketa" destination="" priority="0"/>
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
@@ -53,6 +54,7 @@
                                 <folder source="Char_Klukai" destination="" priority="0"/>
                                 <folder source="Char_Leva" destination="" priority="0"/>
                                 <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
                                 <folder source="Char_Mosin" destination="" priority="0"/>
                                 <folder source="Char_Nikketa" destination="" priority="0"/>
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
@@ -75,6 +77,7 @@
                                 <folder source="Char_Klukai" destination="" priority="0"/>
                                 <folder source="Char_Leva" destination="" priority="0"/>
                                 <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
                                 <folder source="Char_Mosin" destination="" priority="0"/>
                                 <folder source="Char_Nikketa" destination="" priority="0"/>
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
@@ -97,6 +100,7 @@
                                 <folder source="Char_Klukai" destination="" priority="0"/>
                                 <folder source="Char_Leva" destination="" priority="0"/>
                                 <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
                                 <folder source="Char_Mosin" destination="" priority="0"/>
                                 <folder source="Char_Nikketa" destination="" priority="0"/>
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
@@ -119,6 +123,7 @@
                                 <folder source="Char_Klukai" destination="" priority="0"/>
                                 <folder source="Char_Leva" destination="" priority="0"/>
                                 <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
                                 <folder source="Char_Mosin" destination="" priority="0"/>
                                 <folder source="Char_Nikketa" destination="" priority="0"/>
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
@@ -141,6 +146,7 @@
                                 <folder source="Char_Klukai" destination="" priority="0"/>
                                 <folder source="Char_Leva" destination="" priority="0"/>
                                 <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
                                 <folder source="Char_Mosin" destination="" priority="0"/>
                                 <folder source="Char_Nikketa" destination="" priority="0"/>
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
@@ -163,6 +169,7 @@
                                 <folder source="Char_Klukai" destination="" priority="0"/>
                                 <folder source="Char_Leva" destination="" priority="0"/>
                                 <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
                                 <folder source="Char_Mosin" destination="" priority="0"/>
                                 <folder source="Char_Nikketa" destination="" priority="0"/>
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
@@ -185,6 +192,7 @@
                                 <folder source="Char_Klukai" destination="" priority="0"/>
                                 <folder source="Char_Leva" destination="" priority="0"/>
                                 <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
                                 <folder source="Char_Mosin" destination="" priority="0"/>
                                 <folder source="Char_Nikketa" destination="" priority="0"/>
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
@@ -207,6 +215,7 @@
                                 <folder source="Char_Klukai" destination="" priority="0"/>
                                 <folder source="Char_Leva" destination="" priority="0"/>
                                 <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
                                 <folder source="Char_Mosin" destination="" priority="0"/>
                                 <folder source="Char_Nikketa" destination="" priority="0"/>
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
@@ -229,6 +238,7 @@
                                 <folder source="Char_Klukai" destination="" priority="0"/>
                                 <folder source="Char_Leva" destination="" priority="0"/>
                                 <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
                                 <folder source="Char_Mosin" destination="" priority="0"/>
                                 <folder source="Char_Nikketa" destination="" priority="0"/>
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
@@ -251,6 +261,7 @@
                                 <folder source="Char_Klukai" destination="" priority="0"/>
                                 <folder source="Char_Leva" destination="" priority="0"/>
                                 <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
                                 <folder source="Char_Mosin" destination="" priority="0"/>
                                 <folder source="Char_Nikketa" destination="" priority="0"/>
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
@@ -273,6 +284,7 @@
                                 <folder source="Char_Klukai" destination="" priority="0"/>
                                 <folder source="Char_Leva" destination="" priority="0"/>
                                 <folder source="Char_Lind" destination="" priority="0"/>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
                                 <folder source="Char_Mosin" destination="" priority="0"/>
                                 <folder source="Char_Nikketa" destination="" priority="0"/>
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
@@ -1312,6 +1324,135 @@
                             <files>
                                 <folder source="Char_Lind" destination="" priority="0"/>
                                 <folder source="Presets/Config_Char_lind_renegade" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+        <installStep name="Makiatto">
+            <visible><flagDependency flag="flag_show_chars" value="yes"/></visible>
+            <optionalFileGroups order="Explicit">
+                <group name="Makiatto" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Don't install">
+                            <description>Skip Makiatto.</description>
+                            <image path=""/>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install (default: Freedom)">
+                            <description>Install Makiatto. Faction follows the preset above, or Freedom if no preset was chosen.</description>
+                            <image path=""/>
+                            <files><folder source="Char_Makiatto" destination="" priority="0"/></files>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Duty">
+                            <description>Install Makiatto and assign her to Duty. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_makiatto_dolg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Freedom">
+                            <description>Install Makiatto and assign her to Freedom. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_makiatto_freedom" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Loners">
+                            <description>Install Makiatto and assign her to Loners. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_makiatto_stalker" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Bandits">
+                            <description>Install Makiatto and assign her to Bandits. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_makiatto_bandit" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Military">
+                            <description>Install Makiatto and assign her to Military. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_makiatto_army" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Monolith">
+                            <description>Install Makiatto and assign her to Monolith. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_makiatto_monolith" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Ecologist">
+                            <description>Install Makiatto and assign her to Ecologist. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_makiatto_ecolog" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Mercenary">
+                            <description>Install Makiatto and assign her to Mercenary. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_makiatto_killer" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as ISG">
+                            <description>Install Makiatto and assign her to ISG. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_makiatto_isg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as SIN">
+                            <description>Install Makiatto and assign her to SIN. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_makiatto_greh" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Clear Sky">
+                            <description>Install Makiatto and assign her to Clear Sky. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_makiatto_csky" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Renegade">
+                            <description>Install Makiatto and assign her to Renegade. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Makiatto" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_makiatto_renegade" destination="" priority="2"/>
                             </files>
                             <typeDescriptor><type name="Optional"/></typeDescriptor>
                         </plugin>
