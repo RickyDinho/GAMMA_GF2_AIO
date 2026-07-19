@@ -37,6 +37,7 @@
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
                                 <folder source="Char_Robella" destination="" priority="0"/>
                                 <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
                                 <folder source="Char_Vector" destination="" priority="0"/>
                                 <folder source="Presets/Config_AllDuty" destination="" priority="1"/>
                             </files>
@@ -60,6 +61,7 @@
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
                                 <folder source="Char_Robella" destination="" priority="0"/>
                                 <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
                                 <folder source="Char_Vector" destination="" priority="0"/>
                                 <folder source="Presets/Config_AllFreedom" destination="" priority="1"/>
                             </files>
@@ -83,6 +85,7 @@
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
                                 <folder source="Char_Robella" destination="" priority="0"/>
                                 <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
                                 <folder source="Char_Vector" destination="" priority="0"/>
                                 <folder source="Presets/Config_AllLoners" destination="" priority="1"/>
                             </files>
@@ -106,6 +109,7 @@
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
                                 <folder source="Char_Robella" destination="" priority="0"/>
                                 <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
                                 <folder source="Char_Vector" destination="" priority="0"/>
                                 <folder source="Presets/Config_AllBandits" destination="" priority="1"/>
                             </files>
@@ -129,6 +133,7 @@
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
                                 <folder source="Char_Robella" destination="" priority="0"/>
                                 <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
                                 <folder source="Char_Vector" destination="" priority="0"/>
                                 <folder source="Presets/Config_AllMilitary" destination="" priority="1"/>
                             </files>
@@ -152,6 +157,7 @@
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
                                 <folder source="Char_Robella" destination="" priority="0"/>
                                 <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
                                 <folder source="Char_Vector" destination="" priority="0"/>
                                 <folder source="Presets/Config_AllMonolith" destination="" priority="1"/>
                             </files>
@@ -175,6 +181,7 @@
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
                                 <folder source="Char_Robella" destination="" priority="0"/>
                                 <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
                                 <folder source="Char_Vector" destination="" priority="0"/>
                                 <folder source="Presets/Config_AllEcologist" destination="" priority="1"/>
                             </files>
@@ -198,6 +205,7 @@
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
                                 <folder source="Char_Robella" destination="" priority="0"/>
                                 <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
                                 <folder source="Char_Vector" destination="" priority="0"/>
                                 <folder source="Presets/Config_AllMercenary" destination="" priority="1"/>
                             </files>
@@ -221,6 +229,7 @@
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
                                 <folder source="Char_Robella" destination="" priority="0"/>
                                 <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
                                 <folder source="Char_Vector" destination="" priority="0"/>
                                 <folder source="Presets/Config_AllISG" destination="" priority="1"/>
                             </files>
@@ -244,6 +253,7 @@
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
                                 <folder source="Char_Robella" destination="" priority="0"/>
                                 <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
                                 <folder source="Char_Vector" destination="" priority="0"/>
                                 <folder source="Presets/Config_AllSIN" destination="" priority="1"/>
                             </files>
@@ -267,6 +277,7 @@
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
                                 <folder source="Char_Robella" destination="" priority="0"/>
                                 <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
                                 <folder source="Char_Vector" destination="" priority="0"/>
                                 <folder source="Presets/Config_AllClearSky" destination="" priority="1"/>
                             </files>
@@ -290,6 +301,7 @@
                                 <folder source="Char_Phaetusa" destination="" priority="0"/>
                                 <folder source="Char_Robella" destination="" priority="0"/>
                                 <folder source="Char_Tina" destination="" priority="0"/>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
                                 <folder source="Char_Vector" destination="" priority="0"/>
                                 <folder source="Presets/Config_AllRenegade" destination="" priority="1"/>
                             </files>
@@ -2098,6 +2110,135 @@
                             <files>
                                 <folder source="Char_Tina" destination="" priority="0"/>
                                 <folder source="Presets/Config_Char_tina_renegade" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+
+        <installStep name="Tololo">
+            <visible><flagDependency flag="flag_show_chars" value="yes"/></visible>
+            <optionalFileGroups order="Explicit">
+                <group name="Tololo" type="SelectExactlyOne">
+                    <plugins order="Explicit">
+                        <plugin name="Don't install">
+                            <description>Skip Tololo.</description>
+                            <image path=""/>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install (default: Ecologist)">
+                            <description>Install Tololo. Faction follows the preset above, or Ecologist if no preset was chosen.</description>
+                            <image path=""/>
+                            <files><folder source="Char_Tololo" destination="" priority="0"/></files>
+                            <typeDescriptor><type name="Recommended"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Duty">
+                            <description>Install Tololo and assign her to Duty. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tololo_dolg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Freedom">
+                            <description>Install Tololo and assign her to Freedom. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tololo_freedom" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Loners">
+                            <description>Install Tololo and assign her to Loners. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tololo_stalker" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Bandits">
+                            <description>Install Tololo and assign her to Bandits. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tololo_bandit" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Military">
+                            <description>Install Tololo and assign her to Military. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tololo_army" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Monolith">
+                            <description>Install Tololo and assign her to Monolith. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tololo_monolith" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Ecologist">
+                            <description>Install Tololo and assign her to Ecologist. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tololo_ecolog" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Mercenary">
+                            <description>Install Tololo and assign her to Mercenary. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tololo_killer" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as ISG">
+                            <description>Install Tololo and assign her to ISG. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tololo_isg" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as SIN">
+                            <description>Install Tololo and assign her to SIN. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tololo_greh" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Clear Sky">
+                            <description>Install Tololo and assign her to Clear Sky. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tololo_csky" destination="" priority="2"/>
+                            </files>
+                            <typeDescriptor><type name="Optional"/></typeDescriptor>
+                        </plugin>
+                        <plugin name="Install as Renegade">
+                            <description>Install Tololo and assign her to Renegade. Overrides the preset above.</description>
+                            <image path=""/>
+                            <files>
+                                <folder source="Char_Tololo" destination="" priority="0"/>
+                                <folder source="Presets/Config_Char_tololo_renegade" destination="" priority="2"/>
                             </files>
                             <typeDescriptor><type name="Optional"/></typeDescriptor>
                         </plugin>

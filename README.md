@@ -23,6 +23,7 @@ All-in-one companion mod for **S.T.A.L.K.E.R. Anomaly / GAMMA** bringing charact
 | Mosin | Loners | Cordon |
 | Cheeta | Ecologist | Yantar |
 | Makiatto | Freedom | Army Warehouses |
+| Tololo | Ecologist | Yantar |
 
 Each companion is **invulnerable** (UNLESS shot by the player), can be recruited and dismissed, and returns to their home smart terrain when dismissed.
 

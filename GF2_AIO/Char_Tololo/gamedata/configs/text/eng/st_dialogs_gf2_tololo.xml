@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_tololo_first_meet_0">
+        <text>Gravity altered the course of the stars, pulling me here. Tololo, reporting in.</text>
+    </string>
+    <string id="gf2_tololo_first_meet_1">
+        <text>Tololo? Good to see you!</text>
+    </string>
+	<string id="gf2_tololo_greet_0">
+        <text>Alright, time to start today's work.</text>
+    </string>
+	<string id="gf2_tololo_misc_0">
+		<text>What's they shiny thing in your hair, Tololo?</text>
+	</string>
+	<string id="gf2_tololo_misc_1">
+		<text>This hair accessory was a gift from Leader Qiongjiu. The shimmering moonstone gleams softly, carrying the color of the sky.</text>
+	</string>
+    <string id="gf2_tololo_recruit_0">
+        <text>Tololo, let us head out on patrol.</text>
+    </string>
+	<string id="gf2_tololo_recruit_1">
+        <text>Understood.</text>
+    </string>
+	<string id="gf2_tololo_dismiss_0">
+        <text>Okay Tololo, that's enough. Please head back to base.</text>
+    </string>
+	<string id="gf2_tololo_dismiss_1">
+        <text>This way, there will be time to do what I love, right?</text>
+    </string>
+</string_table>
