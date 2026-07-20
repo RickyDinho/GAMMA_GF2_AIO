@@ -1,3 +1,5 @@
+v2.3.0 Sabrina
+
 # GF2 Companions AIO
 
 All-in-one companion mod for **S.T.A.L.K.E.R. Anomaly / GAMMA** bringing characters from **Girls Frontline 2: Exilium** into the Zone as recruitable companions.
@@ -24,6 +26,7 @@ All-in-one companion mod for **S.T.A.L.K.E.R. Anomaly / GAMMA** bringing charact
 | Cheeta | Ecologist | Yantar |
 | Makiatto | Freedom | Army Warehouses |
 | Tololo | Ecologist | Yantar |
+| Sabrina | Loners | Cordon |
 
 Each companion is **invulnerable** (UNLESS shot by the player), can be recruited and dismissed, and returns to their home smart terrain when dismissed.
 

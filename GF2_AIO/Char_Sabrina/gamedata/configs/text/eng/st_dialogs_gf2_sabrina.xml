@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_sabrina_first_meet_0">
+        <text>Tada! Sabrina here, ready to conduct "culinary research"! If I help the Commander with the promo... could I maybe... you know, skip the bill?</text>
+    </string>
+    <string id="gf2_sabrina_first_meet_1">
+        <text>SPAS-12? Good to see you again!</text>
+    </string>
+	<string id="gf2_sabrina_greet_0">
+        <text>Hello, this is Sabrina 12! Nice to see you again!</text>
+    </string>
+	<string id="gf2_sabrina_misc_0">
+		<text>What's this elmochan notification on my PDA...?</text>
+	</string>
+	<string id="gf2_sabrina_misc_1">
+		<text>Commander, I've uploaded a new food video- it's about making mustard apple pie. Don't forget to give me a like!</text>
+	</string>
+    <string id="gf2_sabrina_recruit_0">
+        <text>C'mon Sabrina, let's go.</text>
+    </string>
+	<string id="gf2_sabrina_recruit_1">
+        <text>Let's go!</text>
+    </string>
+	<string id="gf2_sabrina_dismiss_0">
+        <text>Sabrina, enough for today. Please head back to base.</text>
+    </string>
+	<string id="gf2_sabrina_dismiss_1">
+        <text>Careful, it's dangerous-!</text>
+    </string>
+</string_table>
