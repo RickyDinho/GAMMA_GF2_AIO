@@ -1,4 +1,4 @@
-v2.3.0 Sabrina
+v2.3.1 Sabrina
 
 # GF2 Companions AIO
 
