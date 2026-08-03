@@ -1,4 +1,4 @@
-v2.3.1 Sabrina
+v2.4.0 Lenna & Sabrina
 
 # GF2 Companions AIO
 
@@ -8,7 +8,7 @@ All-in-one companion mod for **S.T.A.L.K.E.R. Anomaly / GAMMA** bringing charact
 
 ## Characters
 
-| Name | Default Faction | Spawn Zone |
+| Name | Default Faction | Default Spawn Zone |
 |------|----------------|------------|
 | Alva | Duty | Bar |
 | Voymastina | Duty | Bar |
@@ -27,6 +27,8 @@ All-in-one companion mod for **S.T.A.L.K.E.R. Anomaly / GAMMA** bringing charact
 | Makiatto | Freedom | Army Warehouses |
 | Tololo | Ecologist | Yantar |
 | Sabrina | Loners | Cordon |
+| Lenna | Bandits | Dark Valley |
+| Peri | Loners | Cordon |
 
 Each companion is **invulnerable** (UNLESS shot by the player), can be recruited and dismissed, and returns to their home smart terrain when dismissed.
 

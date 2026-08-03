@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_peri_first_meet_0">
+        <text>Hello, I'm Peri. I've grown up a lot since before, you know. Huh? You heard my name from an underground broker?</text>
+    </string>
+    <string id="gf2_peri_first_meet_1">
+        <text>Welcome back, Peri!</text>
+    </string>
+	<string id="gf2_peri_greet_0">
+        <text>Good morning, Commander. You look dashing today too! I'd better give it my all as well.</text>
+    </string>
+	<string id="gf2_peri_misc_0">
+		<text>What's up, Peri?</text>
+	</string>
+	<string id="gf2_peri_misc_1">
+		<text>What I'm doing? Oh, I was looking through the recent procurement logs. Don't worry, we won't lose out in that respect as long as I'm around, so don't worry.</text>
+	</string>
+    <string id="gf2_peri_recruit_0">
+        <text>Peri, let us head out.</text>
+    </string>
+	<string id="gf2_peri_recruit_1">
+        <text>Awaiting your orders!</text>
+    </string>
+	<string id="gf2_peri_dismiss_0">
+        <text>Ok Peri, enough for now. Please head back to base.</text>
+    </string>
+	<string id="gf2_peri_dismiss_1">
+        <text>Please rely on me more!</text>
+    </string>
+</string_table>

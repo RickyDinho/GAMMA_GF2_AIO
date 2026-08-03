@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<xml>
+<!-- Peri -->
+
+<specific_character id="gf2_peri" team_default="1">
+    <name>Peri</name>
+    <icon>ui_actor_portrets_gf2_peri</icon>
+    <map_icon x="1" y="0"/>
+    <bio>Peri</bio>
+    <class>gf2_peri</class>
+    <community>bandit</community>
+    <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human\woman\</snd_config>
+    <rank>15000</rank>
+	<reputation>5000</reputation>
+	<crouch_type>-1</crouch_type>
+    <visual>actors\gf2_peri\gf2_peri</visual>
+    <supplies>
+    [spawn] \n
+    wpn_mp5_peri \n
+    ammo_9x19_ap = 6 \n
+#include "gameplay\supplies\character_items.xml"
+#include "gameplay\supplies\character_food.xml"
+#include "gameplay\supplies\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals.xml"
+    <start_dialog>gf2_peri_greet</start_dialog>
+	<actor_dialog>gf2_peri_misc</actor_dialog>
+	<actor_dialog>gf2_peri_recruitment</actor_dialog>
+	<actor_dialog>gf2_peri_dismiss</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character> 
+
+</xml>

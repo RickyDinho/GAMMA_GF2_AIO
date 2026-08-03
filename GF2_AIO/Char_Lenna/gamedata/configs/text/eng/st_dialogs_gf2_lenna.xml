@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_lenna_first_meet_0">
+        <text>Hehe, sorry to keep you waiting. Leave the rest to me!</text>
+    </string>
+    <string id="gf2_lenna_first_meet_1">
+        <text>So your name is "Lenna" now? Glad to have you here!</text>
+    </string>
+	<string id="gf2_lenna_greet_0">
+        <text>Hmm, hmm, hmm~ Good morning, Commander-Hm? Me? I'm heading off to check in with Leva next! Ehee hee...</text>
+    </string>
+	<string id="gf2_lenna_misc_0">
+		<text>What's going on Lenna?</text>
+	</string>
+	<string id="gf2_lenna_misc_1">
+		<text>Hah? Commander, look, over there! ...(smooch) Hehe, I meant that this time. Didn't expect that, huh?</text>
+	</string>
+    <string id="gf2_lenna_recruit_0">
+        <text>C'mon Lenna, let's go.</text>
+    </string>
+	<string id="gf2_lenna_recruit_1">
+        <text>Huh? There's still work...? No way... Alright, let's get it done quickly!</text>
+    </string>
+	<string id="gf2_lenna_dismiss_0">
+        <text>Lenna, enough for today. Please head back to base.</text>
+    </string>
+	<string id="gf2_lenna_dismiss_1">
+        <text>Will Leva praise me?</text>
+    </string>
+</string_table>
