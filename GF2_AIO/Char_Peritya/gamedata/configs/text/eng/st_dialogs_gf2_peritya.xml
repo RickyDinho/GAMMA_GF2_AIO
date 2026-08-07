@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_peritya_first_meet_0">
+        <text>Commander...? Hello.</text>
+    </string>
+    <string id="gf2_peritya_first_meet_1">
+        <text>Uh. Hello!</text>
+    </string>
+	<string id="gf2_peritya_greet_0">
+        <text>The clouds today have such a rare shape...</text>
+    </string>
+	<string id="gf2_peritya_misc_0">
+		<text>Peritya, do you know Krolik?</text>
+	</string>
+	<string id="gf2_peritya_misc_1">
+		<text>Kro... lik... Sounds vaguely familiar. Is it some kind of exotic food?</text>
+	</string>
+    <string id="gf2_peritya_recruit_0">
+        <text>Peritya, let us go on patrol.</text>
+    </string>
+	<string id="gf2_peritya_recruit_1">
+        <text>As you wish.</text>
+    </string>
+	<string id="gf2_peritya_dismiss_0">
+        <text>Ok Peritya, enough for now. Please head back to base.</text>
+    </string>
+	<string id="gf2_peritya_dismiss_1">
+        <text>Is this... what is this...?</text>
+    </string>
+</string_table>

@@ -1,4 +1,4 @@
-v2.4.0 Lenna & Sabrina
+v2.5.0 Peritya & Ksenia
 
 # GF2 Companions AIO
 
@@ -29,6 +29,8 @@ All-in-one companion mod for **S.T.A.L.K.E.R. Anomaly / GAMMA** bringing charact
 | Sabrina | Loners | Cordon |
 | Lenna | Bandits | Dark Valley |
 | Peri | Loners | Cordon |
+| Ksenia | Loners | Cordon |
+| Peritya | Renegade | Meadow |
 
 Each companion is **invulnerable** (UNLESS shot by the player), can be recruited and dismissed, and returns to their home smart terrain when dismissed.
 

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_ksenia_first_meet_0">
+        <text>The employer... is the Commander? In that case... how about I give you a discount now, and we put together a long-term employment contract?</text>
+    </string>
+    <string id="gf2_ksenia_first_meet_1">
+        <text>Well well, if it isn't Stechkin!</text>
+    </string>
+	<string id="gf2_ksenia_greet_0">
+        <text>Commander, you're back? I thought I had the day off today...</text>
+    </string>
+	<string id="gf2_ksenia_misc_0">
+		<text>How is it working under Nagant?</text>
+	</string>
+	<string id="gf2_ksenia_misc_1">
+		<text>Although Nagant can be naggy, but she does it for the sake of us juniors. Oh, you mean her "combat experience"? You can take that with a grain of salt...</text>
+	</string>
+    <string id="gf2_ksenia_recruit_0">
+        <text>Ksenia, let's head out.</text>
+    </string>
+	<string id="gf2_ksenia_recruit_1">
+        <text>Extra work? Sure thing, but remember to pay for my overtime!</text>
+    </string>
+	<string id="gf2_ksenia_dismiss_0">
+        <text>Ok Ksenia, enough for now. Please head back to base.</text>
+    </string>
+	<string id="gf2_ksenia_dismiss_1">
+        <text>Did my wage go up?</text>
+    </string>
+</string_table>
