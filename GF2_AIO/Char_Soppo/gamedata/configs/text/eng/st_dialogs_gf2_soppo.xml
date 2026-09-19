@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_soppo_first_meet_0">
+        <text>Uwaaaaa! The Commander found me! Do you still remember me, Commander?</text>
+    </string>
+    <string id="gf2_soppo_first_meet_1">
+        <text>SOP-II! I'm so happy to see you again!</text>
+    </string>
+	<string id="gf2_soppo_greet_0">
+        <text>Hellooo!</text>
+    </string>
+	<string id="gf2_soppo_misc_0">
+		<text>SOP-II, what's that you're holding?</text>
+	</string>
+	<string id="gf2_soppo_misc_1">
+		<text>I looooove the Commander! But on a mission I can't be with you so... Tadaaaa! For those moments, I made M4 SOPMOD-II Junior! So she can remind you of me when I'm not around!</text>
+	</string>
+    <string id="gf2_soppo_recruit_0">
+        <text>SOP-II, let's go together.</text>
+    </string>
+	<string id="gf2_soppo_recruit_1">
+        <text>Is it my turn?</text>
+    </string>
+	<string id="gf2_soppo_dismiss_0">
+        <text>Ok SOP-II, enough for now. Please head back to base.</text>
+    </string>
+	<string id="gf2_soppo_dismiss_1">
+        <text>Boring...</text>
+    </string>
+</string_table>

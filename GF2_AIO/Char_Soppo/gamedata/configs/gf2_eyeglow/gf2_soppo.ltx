@@ -1,0 +1,30 @@
+; GF2 eye-glow for Soppo.
+; A GF2 character that has configs\gf2_eyeglow\gf2_<name>.ltx lights up her
+; eyes instead of wearing a headlamp. On/off follows the same rules Useful
+; Idiots uses for companion headlamps. Delete this file to give her a normal
+; headlamp again.
+;
+; iris_tint / iris_brightness are baked into her glow shader by build.py
+; (rebuild after changing them). Everything else is read in-game.
+
+[eyeglow]
+; -- Iris: her eye surface is swapped to a self-lit shader while lit --
+; Texture of the eye surface in her model (as in the .ogf, no extension).
+; Leave empty for the beam only.
+iris_texture    = characters\gf2_soppo\c_soppo_slg_eye_d
+iris_tint       = 1.0, 0.02, 0.03   ; red; raise G for orange, B for crimson
+iris_brightness = 3.0               ; 1 = faint, 3 = glowing, 8+ = blown out
+
+; -- Beam: spot light projected forward from between her eyes --
+; Range/cone match [torch_definition] (the headlamp); a cool, crimson-leaning red.
+beam_color      = 3.0, 0.12, 0.15
+beam_range      = 38                ; m
+beam_angle      = 60                ; degrees, cone width
+beam_texture    = internal\internal_light_torch_r2
+beam_forward    = 0.10              ; m, start of the beam in front of her face
+beam_volumetric = false             ; true = visible light shafts in fog/dust
+
+; -- Bones the lights are placed on --
+bone_eye_left   = eye_left
+bone_eye_right  = eye_right
+bone_head       = bip01_head
