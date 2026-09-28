@@ -1,4 +1,4 @@
-v2.6.0 Soppo
+v2.7.0 Soppo v2
 
 # GF2 Companions AIO
 
