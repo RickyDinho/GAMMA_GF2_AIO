@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding="windows-1251"?>
 <xml>
-<!-- Soppo -->
 
 <specific_character id="gf2_soppo" team_default="1">
     <name>Soppo</name>
@@ -28,7 +27,10 @@
 	<actor_dialog>gf2_soppo_misc</actor_dialog>
 	<actor_dialog>gf2_soppo_recruitment</actor_dialog>
 	<actor_dialog>gf2_soppo_dismiss</actor_dialog>
+	<actor_dialog>gf2_soppo_stretch</actor_dialog>
+	<actor_dialog>gf2_soppo_hug</actor_dialog>
+	<actor_dialog>gf2_soppo_look</actor_dialog>
 	<actor_dialog>actor_break_dialog</actor_dialog>
-</specific_character> 
+</specific_character>
 
 </xml>

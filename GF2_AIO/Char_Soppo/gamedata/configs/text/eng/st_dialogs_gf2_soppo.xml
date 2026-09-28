@@ -27,4 +27,28 @@
 	<string id="gf2_soppo_dismiss_1">
         <text>Boring...</text>
     </string>
+	<string id="gf2_soppo_stretch_0">
+		<text>SOP-II, your tanks are rattling. Everything okay back there?</text>
+	</string>
+	<string id="gf2_soppo_stretch_1">
+		<text>Eh? Wait, wait, let me check... Mhm! All good, Commander!</text>
+	</string>
+	<string id="gf2_soppo_hug_0">
+		<text>*Open your arms.*</text>
+	</string>
+	<string id="gf2_soppo_hug_1">
+		<text>Commander... come here. Just for a moment, okay?</text>
+	</string>
+	<string id="gf2_soppo_look_0">
+		<text>*Look at her closely.*</text>
+	</string>
+	<string id="gf2_soppo_look_1">
+		<text>*She leans in and looks up at you, waiting for something...*</text>
+	</string>
+	<string id="gf2_soppo_look_2">
+		<text>*Pat her head.*</text>
+	</string>
+	<string id="gf2_soppo_look_3">
+		<text>It&apos;s nothing.</text>
+	</string>
 </string_table>

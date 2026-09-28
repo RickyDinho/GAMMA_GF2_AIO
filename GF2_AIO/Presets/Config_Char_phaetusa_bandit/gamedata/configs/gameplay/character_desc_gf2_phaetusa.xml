@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding="windows-1251"?>
 <xml>
-<!-- Phaetusa -->
 
 <specific_character id="gf2_phaetusa" team_default="1">
     <name>Phaetusa</name>
@@ -28,6 +27,6 @@
 	<actor_dialog>gf2_phaetusa_recruitment</actor_dialog>
 	<actor_dialog>gf2_phaetusa_dismiss</actor_dialog>
 	<actor_dialog>actor_break_dialog</actor_dialog>
-</specific_character> 
+</specific_character>
 
 </xml>

@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding="windows-1251"?>
 <xml>
-<!-- Klukai -->
 
 <specific_character id="gf2_klukai" team_default="1">
     <name>Klukai</name>
@@ -29,6 +28,6 @@
 	<actor_dialog>gf2_klukai_recruitment</actor_dialog>
 	<actor_dialog>gf2_klukai_dismiss</actor_dialog>
 	<actor_dialog>actor_break_dialog</actor_dialog>
-</specific_character> 
+</specific_character>
 
 </xml>

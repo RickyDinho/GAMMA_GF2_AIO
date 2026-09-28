@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding="windows-1251"?>
 <xml>
-<!-- Ksenia -->
 
 <specific_character id="gf2_ksenia" team_default="1">
     <name>Ksenia</name>
@@ -29,6 +28,6 @@
 	<actor_dialog>gf2_ksenia_recruitment</actor_dialog>
 	<actor_dialog>gf2_ksenia_dismiss</actor_dialog>
 	<actor_dialog>actor_break_dialog</actor_dialog>
-</specific_character> 
+</specific_character>
 
 </xml>

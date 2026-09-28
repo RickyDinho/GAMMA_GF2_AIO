@@ -72,4 +72,53 @@
         </phrase>
     </phrase_list>
 </dialog>
+<dialog id="gf2_soppo_stretch">
+    <has_info>gf2_soppo_met</has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_soppo_stretch_0</text>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text>gf2_soppo_stretch_1</text>
+            <action>gf2_soppo_anim.dlg_stretch</action>
+        </phrase>
+    </phrase_list>
+</dialog>
+<dialog id="gf2_soppo_hug">
+    <has_info>gf2_soppo_met</has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_soppo_hug_0</text>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text>gf2_soppo_hug_1</text>
+            <action>gf2_soppo_anim.dlg_hug</action>
+        </phrase>
+    </phrase_list>
+</dialog>
+<dialog id="gf2_soppo_look">
+    <has_info>gf2_soppo_met</has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_soppo_look_0</text>
+            <action>gf2_soppo_anim.dlg_look_start</action>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text>gf2_soppo_look_1</text>
+            <next>2</next>
+            <next>3</next>
+        </phrase>
+        <phrase id="2">
+            <text>gf2_soppo_look_2</text>
+            <action>gf2_soppo_anim.dlg_look_candy</action>
+        </phrase>
+        <phrase id="3">
+            <text>gf2_soppo_look_3</text>
+            <action>gf2_soppo_anim.dlg_look_back</action>
+        </phrase>
+    </phrase_list>
+</dialog>
 </game_dialogs>

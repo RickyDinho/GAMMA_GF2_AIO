@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding="windows-1251"?>
 <xml>
-<!-- Basti -->
 
 <specific_character id="gf2_basti" team_default="1">
     <name>Basti</name>
@@ -29,6 +28,6 @@
 	<actor_dialog>gf2_basti_recruitment</actor_dialog>
 	<actor_dialog>gf2_basti_dismiss</actor_dialog>
 	<actor_dialog>actor_break_dialog</actor_dialog>
-</specific_character> 
+</specific_character>
 
 </xml>
