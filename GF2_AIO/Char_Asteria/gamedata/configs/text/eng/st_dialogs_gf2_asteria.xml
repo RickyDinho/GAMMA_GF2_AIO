@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_asteria_first_meet_0">
+        <text>Is it my turn at last? Commander, it's an honor to be fighting by your side again. Please feel free to direct me as you see fit, just like before.</text>
+    </string>
+    <string id="gf2_asteria_first_meet_1">
+        <text>Welcome back, Asteria.</text>
+    </string>
+	<string id="gf2_asteria_greet_0">
+        <text>Commander, is it time to head out? I have a lot of experience when it comes to wiping out Paradeus.</text>
+    </string>
+	<string id="gf2_asteria_misc_0">
+		<text>Asteria, what's on your mind?</text>
+	</string>
+	<string id="gf2_asteria_misc_1">
+		<text>I'll definitely find M4 someday... no matter how long it takes or how hard it is. So Commander... would you accompany me on my search?</text>
+	</string>
+    <string id="gf2_asteria_recruit_0">
+        <text>Let's head out together, Asteria.</text>
+    </string>
+	<string id="gf2_asteria_recruit_1">
+        <text>Is it my turn?</text>
+    </string>
+	<string id="gf2_asteria_dismiss_0">
+        <text>Okay Asteria, please head back to base. I will handle it from here.</text>
+    </string>
+	<string id="gf2_asteria_dismiss_1">
+        <text>I'm sorry, I'll make sure I reflect on this.</text>
+    </string>
+	<string id="gf2_asteria_stretch_0">
+		<text>*Ask how her body is holding up.*</text>
+	</string>
+	<string id="gf2_asteria_stretch_1">
+		<text>*stretches*</text>
+	</string>
+	<string id="gf2_asteria_hug_0">
+		<text>*Open your arms.*</text>
+	</string>
+	<string id="gf2_asteria_hug_1">
+		<text>Understood.</text>
+	</string>
+	<string id="gf2_asteria_look_0">
+		<text>*Look at her closely.*</text>
+	</string>
+	<string id="gf2_asteria_look_1">
+		<text>Huh? I, um, I didn't do anything... I was just checking the detonator's switch... I mean, it would be bad if we needed it and it didn't work, right?</text>
+	</string>
+	<string id="gf2_asteria_outfit_ask">
+		<text>*Ask her to change outfits.*</text>
+	</string>
+	<string id="gf2_asteria_outfit_default">
+		<text>Seeker</text>
+	</string>
+	<string id="gf2_asteria_outfit_1">
+		<text>Ad Astra I</text>
+	</string>
+	<string id="gf2_asteria_outfit_2">
+		<text>Ad Astra II</text>
+	</string>
+	<string id="gf2_asteria_outfit_3">
+		<text>Ad Astra III</text>
+	</string>
+</string_table>

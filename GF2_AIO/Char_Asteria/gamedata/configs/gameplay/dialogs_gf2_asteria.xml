@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<game_dialogs>
+	<dialog id="gf2_asteria_greet">
+		<phrase_list>
+			<phrase id="0">
+				<text/>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text/>
+				<next>10</next>
+				<next>20</next>
+			</phrase>
+			<phrase id="10">
+				<dont_has_info>gf2_asteria_met</dont_has_info>
+				<text>gf2_asteria_first_meet_0</text>
+				<action>gf2_aio.gf2_asteria_play_first_meet_line</action>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>gf2_asteria_first_meet_1</text>
+				<give_info>gf2_asteria_met</give_info>
+			</phrase>
+			<phrase id="20">
+				<has_info>gf2_asteria_met</has_info>
+				<text>gf2_asteria_greet_0</text>
+				<action>gf2_aio.gf2_asteria_play_greet_line</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="gf2_asteria_misc">
+        <has_info>gf2_asteria_met</has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>gf2_asteria_misc_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>gf2_asteria_misc_1</text>
+                <action>gf2_aio.gf2_asteria_play_misc_line</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="gf2_asteria_recruitment">
+    <has_info>gf2_asteria_met</has_info>
+    <dont_has_info>gf2_asteria_companion</dont_has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_asteria_recruit_0</text>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text>gf2_asteria_recruit_1</text>
+            <give_info>gf2_asteria_companion</give_info>
+            <action>gf2_aio.gf2_asteria_recruit_companion</action>
+        </phrase>
+    </phrase_list>
+</dialog>
+
+<dialog id="gf2_asteria_dismiss">
+    <has_info>gf2_asteria_met</has_info>
+    <has_info>gf2_asteria_companion</has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_asteria_dismiss_0</text>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text>gf2_asteria_dismiss_1</text>
+            <disable_info>gf2_asteria_companion</disable_info>
+            <action>gf2_aio.gf2_asteria_dismiss_companion</action>
+        </phrase>
+    </phrase_list>
+</dialog>
+<dialog id="gf2_asteria_stretch">
+    <has_info>gf2_asteria_met</has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_asteria_stretch_0</text>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text>gf2_asteria_stretch_1</text>
+            <action>gf2_asteria_anim.dlg_stretch</action>
+        </phrase>
+    </phrase_list>
+</dialog>
+<dialog id="gf2_asteria_hug">
+    <has_info>gf2_asteria_met</has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_asteria_hug_0</text>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text>gf2_asteria_hug_1</text>
+            <action>gf2_asteria_anim.dlg_hug</action>
+        </phrase>
+    </phrase_list>
+</dialog>
+<dialog id="gf2_asteria_look">
+    <has_info>gf2_asteria_met</has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_asteria_look_0</text>
+            <action>gf2_asteria_anim.dlg_look_start</action>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text>gf2_asteria_look_1</text>
+        </phrase>
+    </phrase_list>
+</dialog>
+<dialog id="gf2_asteria_outfit">
+    <has_info>gf2_asteria_met</has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_asteria_outfit_ask</text>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text/>
+            <next>10</next>
+            <next>11</next>
+            <next>12</next>
+            <next>13</next>
+        </phrase>
+        <phrase id="10">
+            <precondition>gf2_asteria_outfit.dlg_not_default</precondition>
+            <text>gf2_asteria_outfit_default</text>
+            <action>gf2_asteria_outfit.dlg_wear_default</action>
+        </phrase>
+        <phrase id="11">
+            <precondition>gf2_asteria_outfit.dlg_not_1</precondition>
+            <text>gf2_asteria_outfit_1</text>
+            <action>gf2_asteria_outfit.dlg_wear_1</action>
+        </phrase>
+        <phrase id="12">
+            <precondition>gf2_asteria_outfit.dlg_not_2</precondition>
+            <text>gf2_asteria_outfit_2</text>
+            <action>gf2_asteria_outfit.dlg_wear_2</action>
+        </phrase>
+        <phrase id="13">
+            <precondition>gf2_asteria_outfit.dlg_not_3</precondition>
+            <text>gf2_asteria_outfit_3</text>
+            <action>gf2_asteria_outfit.dlg_wear_3</action>
+        </phrase>
+    </phrase_list>
+</dialog>
+</game_dialogs>

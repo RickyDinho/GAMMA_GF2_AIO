@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<game_dialogs>
+	<dialog id="gf2_koleda_greet">
+		<phrase_list>
+			<phrase id="0">
+				<text/>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text/>
+				<next>10</next>
+				<next>20</next>
+			</phrase>
+			<phrase id="10">
+				<dont_has_info>gf2_koleda_met</dont_has_info>
+				<text>gf2_koleda_first_meet_0</text>
+				<action>gf2_aio.gf2_koleda_play_first_meet_line</action>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>gf2_koleda_first_meet_1</text>
+				<give_info>gf2_koleda_met</give_info>
+			</phrase>
+			<phrase id="20">
+				<has_info>gf2_koleda_met</has_info>
+				<text>gf2_koleda_greet_0</text>
+				<action>gf2_aio.gf2_koleda_play_greet_line</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+	<dialog id="gf2_koleda_misc">
+        <has_info>gf2_koleda_met</has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>gf2_koleda_misc_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>gf2_koleda_misc_1</text>
+                <action>gf2_aio.gf2_koleda_play_misc_line</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="gf2_koleda_recruitment">
+    <has_info>gf2_koleda_met</has_info>
+    <dont_has_info>gf2_koleda_companion</dont_has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_koleda_recruit_0</text>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text>gf2_koleda_recruit_1</text>
+            <give_info>gf2_koleda_companion</give_info>
+            <action>gf2_aio.gf2_koleda_recruit_companion</action>
+        </phrase>
+    </phrase_list>
+</dialog>
+
+<dialog id="gf2_koleda_dismiss">
+    <has_info>gf2_koleda_met</has_info>
+    <has_info>gf2_koleda_companion</has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_koleda_dismiss_0</text>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text>gf2_koleda_dismiss_1</text>
+            <disable_info>gf2_koleda_companion</disable_info>
+            <action>gf2_aio.gf2_koleda_dismiss_companion</action>
+        </phrase>
+    </phrase_list>
+</dialog>
+<dialog id="gf2_koleda_stretch">
+    <has_info>gf2_koleda_met</has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_koleda_stretch_0</text>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text>gf2_koleda_stretch_1</text>
+            <action>gf2_koleda_anim.dlg_stretch</action>
+        </phrase>
+    </phrase_list>
+</dialog>
+<dialog id="gf2_koleda_hug">
+    <has_info>gf2_koleda_met</has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_koleda_hug_0</text>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text>gf2_koleda_hug_1</text>
+            <action>gf2_koleda_anim.dlg_hug</action>
+        </phrase>
+    </phrase_list>
+</dialog>
+<dialog id="gf2_koleda_look">
+    <has_info>gf2_koleda_met</has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_koleda_look_0</text>
+            <action>gf2_koleda_anim.dlg_look_start</action>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text>gf2_koleda_look_1</text>
+        </phrase>
+    </phrase_list>
+</dialog>
+<dialog id="gf2_koleda_outfit">
+    <has_info>gf2_koleda_met</has_info>
+    <phrase_list>
+        <phrase id="0">
+            <text>gf2_koleda_outfit_ask</text>
+            <next>1</next>
+        </phrase>
+        <phrase id="1">
+            <text/>
+            <next>10</next>
+            <next>11</next>
+            <next>12</next>
+            <next>13</next>
+        </phrase>
+        <phrase id="10">
+            <precondition>gf2_koleda_outfit.dlg_not_default</precondition>
+            <text>gf2_koleda_outfit_default</text>
+            <action>gf2_koleda_outfit.dlg_wear_default</action>
+        </phrase>
+        <phrase id="11">
+            <precondition>gf2_koleda_outfit.dlg_not_1</precondition>
+            <text>gf2_koleda_outfit_1</text>
+            <action>gf2_koleda_outfit.dlg_wear_1</action>
+        </phrase>
+        <phrase id="12">
+            <precondition>gf2_koleda_outfit.dlg_not_2</precondition>
+            <text>gf2_koleda_outfit_2</text>
+            <action>gf2_koleda_outfit.dlg_wear_2</action>
+        </phrase>
+        <phrase id="13">
+            <precondition>gf2_koleda_outfit.dlg_not_3</precondition>
+            <text>gf2_koleda_outfit_3</text>
+            <action>gf2_koleda_outfit.dlg_wear_3</action>
+        </phrase>
+    </phrase_list>
+</dialog>
+</game_dialogs>

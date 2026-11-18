@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<string_table>
+    <string id="gf2_koleda_first_meet_0">
+        <text>Long time no see, Commander. I am Koleda. Rejoice, because my arrival means that spring days will be coming soon.</text>
+    </string>
+    <string id="gf2_koleda_first_meet_1">
+        <text>Welcome back, Koleda.</text>
+    </string>
+	<string id="gf2_koleda_greet_0">
+        <text>Yo, finally awake? Want to join me in skipping out on work? No? Ehhhh~ You're way too serious, Commander.</text>
+    </string>
+	<string id="gf2_koleda_misc_0">
+		<text>Koleda, you seem to have changed during the past years...</text>
+	</string>
+	<string id="gf2_koleda_misc_1">
+		<text>If Ange taught me anything, it would be that one must always have cards to play at any time. You might say I've become more ruthless, but I will never, ever allow myself to feel that powerless again. It's... loathsome.</text>
+	</string>
+    <string id="gf2_koleda_recruit_0">
+        <text>Let's head out together, Koleda.</text>
+    </string>
+	<string id="gf2_koleda_recruit_1">
+        <text>Aren't I cool?</text>
+    </string>
+	<string id="gf2_koleda_dismiss_0">
+        <text>Okay Koleda, please head back to base. I will handle it from here.</text>
+    </string>
+	<string id="gf2_koleda_dismiss_1">
+        <text>...This is not the end.</text>
+    </string>
+	<string id="gf2_koleda_stretch_0">
+		<text>*Ask how her body is holding up.*</text>
+	</string>
+	<string id="gf2_koleda_stretch_1">
+		<text>*stretches*</text>
+	</string>
+	<string id="gf2_koleda_hug_0">
+		<text>*Open your arms.*</text>
+	</string>
+	<string id="gf2_koleda_hug_1">
+		<text>A wise choice.</text>
+	</string>
+	<string id="gf2_koleda_look_0">
+		<text>*Look at her closely.*</text>
+	</string>
+	<string id="gf2_koleda_look_1">
+		<text>You DO know I can clearly see the expression on your face and where you're looking, right?</text>
+	</string>
+	<string id="gf2_koleda_outfit_ask">
+		<text>*Ask her to change outfits.*</text>
+	</string>
+	<string id="gf2_koleda_outfit_default">
+		<text>Last Year's Snow</text>
+	</string>
+	<string id="gf2_koleda_outfit_1">
+		<text>Age of Spooms I</text>
+	</string>
+	<string id="gf2_koleda_outfit_2">
+		<text>Age of Spooms II</text>
+	</string>
+	<string id="gf2_koleda_outfit_3">
+		<text>Age of Spooms III</text>
+	</string>
+</string_table>
