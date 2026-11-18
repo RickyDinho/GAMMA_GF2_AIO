@@ -1,5 +1,4 @@
-v2.7.0 Soppo v2
-
+v2.8.0 Koleda & Asteria
 # GF2 Companions AIO
 
 All-in-one companion mod for **S.T.A.L.K.E.R. Anomaly / GAMMA** bringing characters from **Girls Frontline 2: Exilium** into the Zone as recruitable companions.
@@ -32,6 +31,8 @@ All-in-one companion mod for **S.T.A.L.K.E.R. Anomaly / GAMMA** bringing charact
 | Ksenia | Loners | Cordon |
 | Peritya | Renegade | Meadow |
 | Soppo | Clear Sky | Great Swamps |
+| Asteria | Clear Sky | Great Swamps |
+| Koleda | Duty | Bar |
 
 Each companion is **invulnerable** (UNLESS shot by the player), can be recruited and dismissed, and returns to their home smart terrain when dismissed.
 
